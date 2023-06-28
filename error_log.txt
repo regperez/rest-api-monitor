@@ -1,0 +1,2 @@
+2023-06-28 17:00:22: Error al enviar el correo electrónico: HTTP Error 401: Unauthorized
+2023-06-28 17:00:22: Respuesta de la API https://www.imdb.com/news/top?ref_=nv_tp_nw: 403
