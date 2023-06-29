@@ -33,6 +33,7 @@ Para que el script pueda enviar alertas por correo electrónico, debes configura
 
 1. Regístrate en una cuenta de SendGrid en [sendgrid.com](https://sendgrid.com/).
 2. Obtén tu API Key de SendGrid siguiendo las instrucciones en [este enlace](https://docs.sendgrid.com/for-developers/sending-email/quickstart-python#step-3-create-an-api-key).
+
 3. Copia tu API Key y asignala a una variable de entorno llamada `SENDGRID_API_KEY`.
 
 En Linux y macOS, puedes hacerlo ejecutando el siguiente comando en la terminal:
@@ -44,7 +45,7 @@ En Windows, puedes configurar la variable de entorno utilizando el panel de cont
 
 4. Abre el archivo `api_monitor.py` con un editor de texto y encuentra la siguiente línea de código:
 
-```python
+
 recipients = ['destinatario1@example.com', 'destinatario2@example.com']
 
 Reemplaza destinatario1@example.com y destinatario2@example.com con las direcciones de correo electrónico de los destinatarios a quienes deseas enviar las alertas.
