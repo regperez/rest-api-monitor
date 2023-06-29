@@ -43,7 +43,7 @@ export SENDGRID_API_KEY="TU_API_KEY"
 
 En Windows, puedes configurar la variable de entorno utilizando el panel de control del sistema.
 
-4. Abre el archivo `api_monitor.py` con un editor de texto y encuentra la siguiente línea de código:
+4. Abre el archivo `app.py` con un editor de texto y encuentra la siguiente línea de código:
 
 
 recipients = ['destinatario1@example.com', 'destinatario2@example.com']
